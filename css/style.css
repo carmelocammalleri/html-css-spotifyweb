@@ -84,6 +84,7 @@ aside{
 
 .icone {
   align-items: center;
+  padding-top: 10px;
 }
 
 .profile {
@@ -94,9 +95,6 @@ aside{
   overflow: hidden;
 }
 
-.profile-name {
-  padding-top: 10px;
-}
 
 .col.bottom img{
   object-fit: contain;
