@@ -76,6 +76,32 @@ aside{
   font-size: .8rem;
 }
 
+.install {
+  border-bottom: 1px solid white;
+  padding: 10px 0;
+  display: block;
+}
+
+.icone {
+  align-items: center;
+}
+
+.profile {
+  background-color: gray;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  overflow: hidden;
+}
+
+.profile-name {
+  padding-top: 10px;
+}
+
+.col.bottom img{
+  object-fit: contain;
+}
+
 .update{
   width: 100vw;
   height: 90px;
