@@ -13,14 +13,19 @@
   display: flex;
 }
 
+main {
+  height: calc(100vh - 90px)
+}
+
 aside{
-  height: calc(100vh - 90px);
   width: 200px;
 }
 
 .update{
   width: calc(100vw - 200px);
   height: 90px;
+  position: fixed;
+  right: 0;
 }
 
 .menu {
@@ -44,6 +49,10 @@ aside{
   border-radius: 50%;
 }
 
-.big.sec {
+.big-sec {
   overflow: auto;
+}
+
+footer {
+ height: 90px;
 }
