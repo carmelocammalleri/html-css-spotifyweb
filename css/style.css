@@ -39,3 +39,11 @@ aside{
   width: 150px;
   height: 150px;
 }
+
+.section.artist .card{
+  border-radius: 50%;
+}
+
+.big.sec {
+  overflow: auto;
+}
