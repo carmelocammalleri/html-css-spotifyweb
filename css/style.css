@@ -22,3 +22,11 @@ aside{
   width: calc(100vw - 200px);
   height: 90px;
 }
+
+.menu {
+  text-align: center;
+}
+
+.menu li{
+  display: inline-block;
+}
