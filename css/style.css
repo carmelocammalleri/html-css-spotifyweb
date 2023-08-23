@@ -13,3 +13,12 @@
   display: flex;
 }
 
+aside{
+  height: calc(100vh - 90px);
+  width: 200px;
+}
+
+.update{
+  width: calc(100vw - 200px);
+  height: 90px;
+}
