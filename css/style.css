@@ -13,8 +13,14 @@
 .flex {
   display: flex;
 }
+
+.center {
+  text-align: center;
+}
+
 /* /GENERAL */
 
+/* MAIN */
 main {
   height: calc(100vh - 90px)
 }
@@ -28,22 +34,34 @@ aside{
   padding: 15px;
 }
 
-.update{
-  width: 100vw;
-  height: 90px;
-  position: fixed;
-  right: 0;
-  top: 0;
-  left: 200px;
+.row-logo {
+  align-items: center;
 }
 
-.center {
-  text-align: center;
-}
-
-.menu li{
-  display: inline-block;
+.menu {
   list-style: none;
+  padding: 10px 0;
+}
+
+.col.top{
+  height: 20vh;
+}
+
+.col.middle {
+  height: calc(100% - 30vh);
+}
+
+.col.bottom {
+  height: 10vh;
+}
+
+.scroll {
+  overflow: auto;
+  height: 100%;
+}
+
+.menu.center li{
+  display: inline-block;
 }
 
 .menu-sec li {
@@ -51,12 +69,13 @@ aside{
   font-size: .8rem;
 }
 
-.menu.scroll {
-  overflow: auto;
-}
-
-.col.middle {
-  height: 400px;
+.update{
+  width: 100vw;
+  height: 90px;
+  position: fixed;
+  right: 0;
+  top: 0;
+  left: 200px;
 }
 
 .cards{
