@@ -45,10 +45,12 @@ aside{
 
 .col.top{
   height: 20vh;
+  min-height: 105px;
 }
 
 .col.middle {
   height: calc(100% - 30vh);
+  overflow: hidden;
 }
 
 .col.bottom {
@@ -58,6 +60,11 @@ aside{
 .scroll {
   overflow: auto;
   height: 100%;
+}
+
+.menu .fa-ul {
+  text-decoration: none;
+  margin-left: 25px;
 }
 
 .menu.center li{
