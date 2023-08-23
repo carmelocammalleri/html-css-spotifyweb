@@ -19,6 +19,7 @@ main {
 
 aside{
   width: 200px;
+  overflow: hidden;
 }
 
 .update{
@@ -30,12 +31,21 @@ aside{
   left: 172px;
 }
 
-.menu {
+.center {
   text-align: center;
+}
+
+.col-middle nav ul{
+  overflow: auto;
 }
 
 .menu li{
   display: inline-block;
+}
+
+.menu-sec li {
+  margin: 0 10px;
+  font-size: .8rem;
 }
 
 .cards{
