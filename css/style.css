@@ -22,10 +22,12 @@ aside{
 }
 
 .update{
-  width: calc(100vw - 200px);
+  width: 100vw;
   height: 90px;
   position: fixed;
   right: 0;
+  top: 0;
+  left: 172px;
 }
 
 .menu {
@@ -49,8 +51,11 @@ aside{
   border-radius: 50%;
 }
 
+
 .big-sec {
+  width: 100%;
   overflow: auto;
+  padding-top: 100px;
 }
 
 footer {
