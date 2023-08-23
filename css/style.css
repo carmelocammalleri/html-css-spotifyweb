@@ -95,7 +95,6 @@ aside{
   overflow: hidden;
 }
 
-
 .col.bottom img{
   object-fit: contain;
 }
@@ -131,4 +130,14 @@ aside{
 
 footer {
  height: 90px;
+}
+
+@media screen and (max-width:500px){
+  .none{
+    display: none;
+  }
+
+  .alto {
+    padding-bottom: 20px;
+  }
 }
