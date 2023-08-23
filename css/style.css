@@ -1,3 +1,4 @@
+/* GENERAL */
 * {
   padding: 0;
   margin: 0;
@@ -12,6 +13,7 @@
 .flex {
   display: flex;
 }
+/* /GENERAL */
 
 main {
   height: calc(100vh - 90px)
@@ -19,7 +21,11 @@ main {
 
 aside{
   width: 200px;
+  height: calc(100vh - 90px) ;
   overflow: hidden;
+  background-color: #000000;
+  color: white;
+  padding: 15px;
 }
 
 .update{
@@ -28,24 +34,29 @@ aside{
   position: fixed;
   right: 0;
   top: 0;
-  left: 172px;
+  left: 200px;
 }
 
 .center {
   text-align: center;
 }
 
-.col-middle nav ul{
-  overflow: auto;
-}
-
 .menu li{
   display: inline-block;
+  list-style: none;
 }
 
 .menu-sec li {
   margin: 0 10px;
   font-size: .8rem;
+}
+
+.menu.scroll {
+  overflow: auto;
+}
+
+.col.middle {
+  height: 400px;
 }
 
 .cards{

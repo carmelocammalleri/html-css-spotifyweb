@@ -4,6 +4,7 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="css/style.css">
+  <link rel='stylesheet' href='https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css' integrity='sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw==' crossorigin='anonymous'/>
   <title>Spotify</title>
 </head>
 <body>
@@ -11,15 +12,17 @@
   <main class="flex">
 
 <!-- ASIDE -->
-    <aside class="debug">
+    <aside>
       <div class="col top">
-        <div class="row-logo">
-          <div>logo</div>
-          <h1>nome</h1>
+        <div class="row-logo flex">
+          <div id="logo">
+            <i class="fa-brands fa-spotify"></i>
+          </div>
+          <h1>Spotify</h1>
         </div>
 
         <nav>
-          <ul>
+          <ul class="menu">
             <li>home</li>
             <li>stay</li>
             <li>hungry</li>
@@ -27,10 +30,10 @@
         </nav>
       </div>
 
-      <div class="col-middle">
+      <div class="col middle">
         <h2>playlist</h2>
-        <nav class="menu">
-          <ul>
+        <div>
+          <ul class="menu scroll">
             <li>Nuova playlist</li>
             <li>Nuova playlist</li>
             <li>Nuova playlist</li>
@@ -39,7 +42,7 @@
             <li>Nuova playlist</li>
             <li>Nuova playlist</li>
           </ul>
-        </nav>
+        </div>
       </div>
 
       <div class="col bottom">
