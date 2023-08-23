@@ -38,6 +38,11 @@ aside{
   align-items: center;
 }
 
+#logo {
+  font-size: 2rem;
+  margin-right: 10px;
+}
+
 .menu {
   list-style-type: none;
   padding: 10px 0;
@@ -121,7 +126,6 @@ aside{
   border-radius: 50%;
 }
 
-
 .big-sec {
   width: 100%;
   overflow: auto;
@@ -133,6 +137,15 @@ footer {
 }
 
 @media screen and (max-width:500px){
+  aside {
+    width:10%;
+    text-align: center;
+  }
+
+  #logo {
+    font-size: 1.2rem;
+  }
+
   .none{
     display: none;
   }
