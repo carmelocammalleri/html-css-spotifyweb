@@ -170,8 +170,19 @@ aside{
 }
 
 .card {
+  width: 300px;
+  height: 300px;
+}
+
+.image-card {
+  width:150px;
+  height: 150px;
+}
+
+.image-card img{
   width: 150px;
   height: 150px;
+  object-fit: contain;
 }
 
 .section.artist .card{
@@ -183,6 +194,7 @@ aside{
   width: calc(100% - 225px);
   padding-top: 100px;
   background-color: #141922;
+  padding-inline: 25px;
 }
 
 footer {
