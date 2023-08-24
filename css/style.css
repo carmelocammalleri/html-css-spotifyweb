@@ -178,15 +178,16 @@ aside{
 }
 
 .card {
+  width: 15%;
   margin-right: 20px;
 }
 
 .image-card {
-  height: 180px;
+  aspect-ratio: 1;
 }
 
 .image-card img{
-  max-width:180px;
+  max-width: 100%;
   object-fit: contain;
 }
 
