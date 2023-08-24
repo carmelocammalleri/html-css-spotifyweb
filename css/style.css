@@ -43,37 +43,23 @@ aside{
 }
 
 #logo {
-  font-size: 2rem;
   margin-right: 10px;
+  width: 150px; 
 }
 
+/* MENU --------------------------*/
 .menu {
   list-style-type: none;
   padding: 10px 0;
 }
 
-.col.top{
-  height: 120px;
-  min-height: 120px;
-}
-
-.col.middle {
-  height: 70%;
-  overflow: hidden;
-}
-
-.col.bottom {
-  height: 80px;
-}
-
-.scroll {
-  overflow: auto;
-  height: 100%;
+.menu.fa-ul li{
+  margin: 10px;
 }
 
 .menu .fa-ul {
   text-decoration: none;
-  margin-left: 25px;
+  margin-left: 15px;
 }
 
 .menu.center li{
@@ -83,6 +69,29 @@ aside{
 .menu-sec li {
   margin: 0 10px;
   font-size: .8rem;
+}
+
+.menu.home {
+  padding: 0;
+}
+
+.scroll {
+  overflow: auto;
+  height: 100%;
+}
+/* /MENU-------------------------- */
+.col.top{
+  height: 150px;
+  min-height: 150px;
+}
+
+.col.middle {
+  height: 65%;
+  overflow: hidden;
+}
+
+.col.bottom {
+  height: 80px;
 }
 
 .install {
@@ -161,10 +170,6 @@ footer {
 
   .menu .fa-ul{
       margin-left: 33px;
-  }
-
-  #logo {
-    font-size: 1.5rem;
   }
 
   .none{
