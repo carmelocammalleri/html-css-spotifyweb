@@ -128,12 +128,24 @@ aside{
 }
 /* /MENU-------------------------- */
 
-.update{
+/* UPDATE --------------------------*/
+.upgrade{
   width: calc(100% - 225px);
   height: 90px;
   position: fixed;
   right: 0;
   top: 0;
+  text-align: end;
+  padding: 20px;
+  background-color: #00000063;
+}
+
+/* BTN */
+.btn {
+  padding: 10px 50px;
+  display: inline-block;
+  border: 1px solid white;
+  border-radius: 30px 30px;
 }
 
 .cards{
