@@ -47,6 +47,10 @@ aside{
   width: 150px; 
 }
 
+.logo-small{
+  display: none;
+}
+
 /* MENU --------------------------*/
 .menu {
   list-style-type: none;
@@ -95,8 +99,7 @@ aside{
 }
 
 .install {
-  border-bottom: 1px solid white;
-  padding: 10px 0;
+  padding: 10px 5px;
   display: block;
 }
 
@@ -115,6 +118,11 @@ aside{
 
 .col.bottom img{
   object-fit: contain;
+}
+
+.aside-foot {
+  align-items: center;
+  border-bottom: 1px solid white;
 }
 
 .update{
@@ -165,13 +173,21 @@ footer {
   }
 
   .col.middle{
-    height: calc(100% - 32vh);
+    height: calc(100% - 220px);
   }
 
   .menu .fa-ul{
-      margin-left: 33px;
+      margin-left: 26px;
   }
 
+  .logo-small{
+    display: block;
+  }
+
+  .aside-foot {
+    border-bottom: 0;
+    text-align: center;
+  }
   .none{
     display: none;
   }
