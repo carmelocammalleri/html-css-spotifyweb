@@ -3,6 +3,7 @@
   padding: 0;
   margin: 0;
   box-sizing: border-box;
+  font-family: 'Montserrat', sans-serif;
 }
 
 .debug {
@@ -119,6 +120,7 @@ aside{
 
 .menu.center li{
   display: inline-block;
+  color: #7B7D82;
 }
 
 .menu-sec li {
