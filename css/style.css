@@ -178,18 +178,15 @@ aside{
 }
 
 .card {
-  height: 300px;
   margin-right: 20px;
 }
 
 .image-card {
-  width:180px;
   height: 180px;
 }
 
 .image-card img{
-  width:180px;
-  height: 180px;
+  max-width:180px;
   object-fit: contain;
 }
 
