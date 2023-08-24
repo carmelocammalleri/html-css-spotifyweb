@@ -67,6 +67,11 @@ aside{
   height: 80px;
 }
 
+.text-playlist {
+  font-weight: bold;
+  padding: 8px 0;
+}
+
 .fa-square-plus {
   font-size: 1.8rem;
 }
@@ -159,6 +164,7 @@ aside{
   border-radius: 30px 30px;
 }
 
+/* SECTION PLAYED--------------------------- */
 .cards{
   flex-wrap: wrap;
 }
