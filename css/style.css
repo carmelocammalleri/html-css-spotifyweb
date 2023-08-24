@@ -29,6 +29,7 @@ main {
   height: calc(100% - 90px)
 }
 
+/* ASIDE --------------------------*/
 aside{
   width: 225px;
   height: 100%;
@@ -51,39 +52,6 @@ aside{
   display: none;
 }
 
-/* MENU --------------------------*/
-.menu {
-  list-style-type: none;
-  padding: 10px 0;
-}
-
-.menu.fa-ul li{
-  margin: 10px;
-}
-
-.menu .fa-ul {
-  text-decoration: none;
-  margin-left: 15px;
-}
-
-.menu.center li{
-  display: inline-block;
-}
-
-.menu-sec li {
-  margin: 0 10px;
-  font-size: .8rem;
-}
-
-.menu.home {
-  padding: 0;
-}
-
-.scroll {
-  overflow: auto;
-  height: 100%;
-}
-/* /MENU-------------------------- */
 .col.top{
   height: 150px;
   min-height: 150px;
@@ -124,6 +92,41 @@ aside{
   align-items: center;
   border-bottom: 1px solid white;
 }
+/* /ASIDE --------------------------*/
+
+/* MENU --------------------------*/
+.menu {
+  list-style-type: none;
+  padding: 10px 0;
+}
+
+.menu.fa-ul li{
+  margin: 10px;
+}
+
+.menu .fa-ul {
+  text-decoration: none;
+  margin-left: 15px;
+}
+
+.menu.center li{
+  display: inline-block;
+}
+
+.menu-sec li {
+  margin: 0 10px;
+  font-size: .8rem;
+}
+
+.menu.home {
+  padding: 0;
+}
+
+.scroll {
+  overflow: auto;
+  height: 100%;
+}
+/* /MENU-------------------------- */
 
 .update{
   width: calc(100% - 225px);
@@ -186,7 +189,7 @@ footer {
 
   .aside-foot {
     border-bottom: 0;
-    text-align: center;
+    justify-content: center;
   }
   .none{
     display: none;
