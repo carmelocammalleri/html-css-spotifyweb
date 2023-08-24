@@ -27,6 +27,10 @@
   color: white;
 }
 
+.gray {
+  color: #7B7D82;
+}
+
 /* /GENERAL */
 
 /* MAIN */
@@ -129,7 +133,6 @@ aside{
 
 .menu.center li{
   display: inline-block;
-  color: #7B7D82;
 }
 
 .menu-sec li {
@@ -176,16 +179,17 @@ aside{
 
 .card {
   height: 300px;
+  margin-right: 20px;
 }
 
 .image-card {
-  width:150px;
-  height: 150px;
+  width:200px;
+  height: 200px;
 }
 
 .image-card img{
-  width: 150px;
-  height: 150px;
+  width: 200px;
+  height: 200px;
   object-fit: contain;
 }
 
