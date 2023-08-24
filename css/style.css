@@ -53,17 +53,17 @@ aside{
 }
 
 .col.top{
-  height: 20vh;
-  min-height: 105px;
+  height: 120px;
+  min-height: 120px;
 }
 
 .col.middle {
-  height: calc(100% - 30vh);
+  height: 70%;
   overflow: hidden;
 }
 
 .col.bottom {
-  height: 10vh;
+  height: 80px;
 }
 
 .scroll {
@@ -132,6 +132,7 @@ aside{
 .big-sec {
   overflow: auto;
   width: calc(100% - 225px);
+  padding-top: 100px;
 }
 
 footer {
