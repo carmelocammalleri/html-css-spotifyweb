@@ -171,6 +171,13 @@ aside{
 }
 
 /* SECTION PLAYED--------------------------- */
+.big-sec {
+  overflow: auto;
+  width: calc(100% - 225px);
+  padding-top: 100px;
+  background-color: #141922;
+  padding-inline: 25px;
+}
 
 .cards{
   flex-wrap: wrap;
@@ -197,18 +204,22 @@ aside{
     overflow: hidden;
 }
 
-.big-sec {
-  overflow: auto;
-  width: calc(100% - 225px);
-  padding-top: 100px;
-  background-color: #141922;
-  padding-inline: 25px;
-}
-
+/* FOOTER------------------ */
 footer {
  height: 90px;
+ background-color: #282828;
 }
 
+.foot {
+  justify-content: space-between;
+  align-items: center;
+}
+
+
+/* /FOOTER------------------ */
+
+
+/* QUERY--------------------- */
 @media screen and (max-width:600px){
   aside {
     width: 50px;
