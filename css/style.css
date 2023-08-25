@@ -208,11 +208,17 @@ aside{
 footer {
  height: 90px;
  background-color: #282828;
+ padding: 10px;
 }
 
 .foot {
   justify-content: space-between;
   align-items: center;
+  height: 100%;
+}
+
+.foot .image-card {
+  width: 50px;
 }
 
 
