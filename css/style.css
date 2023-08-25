@@ -192,8 +192,9 @@ aside{
   object-fit: contain;
 }
 
-.section.artist .card{
-  border-radius: 50%;
+.section.artist .image-card{
+    border-radius: 50%;
+    overflow: hidden;
 }
 
 .big-sec {
