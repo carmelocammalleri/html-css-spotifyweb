@@ -309,15 +309,25 @@ footer {
   width: 20%;
   position: relative;
   border-radius: 5px;
-  }
+}
+
+.barr:hover .advance{
+  background-color: greenyellow;
+}
+
+.barr:hover .advance-circle {
+  display: block;
+  background-color: greenyellow;
+}
 
 .advance-circle{
   border-radius: 50%;
-  width: 100px;
+  width: 10px;
+  height: 10px;
   position: absolute;
-  right: -10px;
-  background-color: yellow;
-  z-index: 50;
+  right: 0;
+  top: -4px;
+  display: none;
 }
 
 .time-min {
