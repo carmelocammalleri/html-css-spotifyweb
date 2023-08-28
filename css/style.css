@@ -271,7 +271,7 @@ footer {
 .player-advance {
   flex-direction: column;
   align-items: center;
-  width: 100%;
+  width: 80%;
 }
 
 .player-advance i {
@@ -291,22 +291,42 @@ footer {
 }
 
 .advance-barr{
-  width: 100%;
+  width: 60%;
   align-items: center;
 }
 
+.barr {
+  width: 90%;
+  height: 3px;
+  background-color: #5A5A5A;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
 .advance {
-  height: 2px;
-  background-color: blue;
-  width: 80px;
+  height: 3px;
+  background-color: white;
+  width: 20%;
+  position: relative;
+  border-radius: 5px;
   }
 
-.barr {
-  width: 50%;
-  height: 2px;
-  background-color: white;
-  margin: 0 auto;
+.advance-circle{
+  border-radius: 50%;
+  width: 100px;
+  position: absolute;
+  right: -10px;
+  background-color: yellow;
+  z-index: 50;
 }
+
+.time-min {
+  margin: 0 20px;
+  color: white;
+  font-size: .7rem;
+}
+
+
 
 /* /FOOTER------------------ */
 
