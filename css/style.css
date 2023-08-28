@@ -86,10 +86,16 @@ aside{
 
 .fa-square-plus {
   font-size: 1.8rem;
+  margin-right: 10px;
 }
 
 .create {
   align-items: center;
+}
+
+.create:hover span,
+.create:hover i {
+  color: white;
 }
 
 .install {
@@ -122,6 +128,12 @@ aside{
   align-items: center;
   border-bottom: 1px solid white;
 }
+
+.aside-foot:hover i,
+.aside-foot:hover .install {
+  color: white;
+}
+
 /* /ASIDE --------------------------*/
 
 /* MENU --------------------------*/
@@ -133,6 +145,11 @@ aside{
 .menu.fa-ul li{
   margin: 10px;
 }
+
+.menu .options:hover span{
+  color:white;
+}
+
 .menu .options img{
   width: 20px;
   margin-right: 5px;
@@ -155,6 +172,10 @@ aside{
   overflow: auto;
   height: 100%;
 }
+
+.scroll ul li:hover{
+  color: white;
+}
 /* /MENU-------------------------- */
 
 /* UPGRADE --------------------------*/
@@ -168,6 +189,10 @@ aside{
   padding: 20px;
   background-color: #000000a4;
   z-index: 999;
+}
+
+.upgrade .btn:hover {
+  scale: 1.1;
 }
 
 /* BTN */
@@ -392,6 +417,10 @@ footer {
   .card {
     width: calc(100% / 4);
     margin-bottom: 20px;
+  }
+
+  .image-card{
+    margin-bottom: 2px;
   }
 }
 
