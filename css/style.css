@@ -31,6 +31,10 @@
   color: #7B7D82;
 }
 
+.pointer {
+  cursor: pointer;
+}
+
 /* /GENERAL */
 
 /* MAIN */
@@ -278,6 +282,9 @@ footer {
   margin: 0 10px;
   font-size: 1rem;
   color: white;
+}
+.player-advance .fa-circle-play:hover {
+  scale: 1.2;
 }
 
 
