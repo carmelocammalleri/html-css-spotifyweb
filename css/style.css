@@ -250,6 +250,10 @@ footer {
   font-size: .7rem;
 }
 
+.foot .title-album .song-name:hover {
+  text-decoration: underline;
+}
+
 .player-card {
   align-items: center;
   justify-content: space-between;
@@ -287,6 +291,9 @@ footer {
   scale: 1.2;
 }
 
+.player-icon i:hover{
+  color: white;
+}
 
 .icon-barr {
   align-items: center;
@@ -355,8 +362,6 @@ footer {
   margin: 0 10px;
   font-size: .8rem;
 }
-
-
 
 /* /FOOTER------------------ */
 
