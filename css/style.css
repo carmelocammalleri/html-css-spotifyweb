@@ -343,6 +343,19 @@ footer {
   font-size: .7rem;
 }
 
+.volume{
+  height: 100%;
+  width: 15%;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.volume i{
+  color: white;
+  margin: 0 10px;
+  font-size: .8rem;
+}
+
 
 
 /* /FOOTER------------------ */
