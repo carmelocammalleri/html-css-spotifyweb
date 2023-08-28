@@ -221,10 +221,12 @@ footer {
  padding: 10px;
 }
 
+/* FOOT---------------- */
 .foot {
   justify-content: space-between;
   align-items: center;
   height: 100%;
+  width: 100%;
 }
 
 .foot .image-card {
@@ -263,12 +265,49 @@ footer {
 .player-icon {
   height: 30px;
 }
+/* /FOOT--------------------------- */
 
-.line {
-  width: 50px;
+/* PLAYER ADVANCE------------------ */
+.player-advance {
+  flex-direction: column;
+  align-items: center;
+  width: 100%;
+}
+
+.player-advance i {
+  margin: 0 10px;
+  font-size: 1rem;
+  color: white;
+}
+
+
+.icon-barr {
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.icon-barr .fa-circle-play {
+  font-size: 1.4rem;
+}
+
+.advance-barr{
+  width: 100%;
+  align-items: center;
+}
+
+.advance {
+  height: 2px;
+  background-color: blue;
+  width: 80px;
+  }
+
+.barr {
+  width: 50%;
   height: 2px;
   background-color: white;
+  margin: 0 auto;
 }
+
 /* /FOOTER------------------ */
 
 
