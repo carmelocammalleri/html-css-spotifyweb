@@ -106,6 +106,10 @@ aside{
   overflow: hidden;
 }
 
+.profile-name {
+  margin-left: 10px;
+}
+
 .col.bottom img{
   object-fit: contain;
 }
@@ -240,13 +244,12 @@ footer {
     font-size: 1.3rem;
   }
 
-  .big-sec {
-    width: calc(100% - 50px)
-    
-  }
-
   .upgrade {
     width: calc(100% - 50px)
+  }
+
+  .options {
+    padding-left: 4px;
   }
 
   .col.middle{
@@ -268,8 +271,9 @@ footer {
   .none{
     display: none;
   }
-
-  .alto {
-    padding-bottom: 25px;
+  
+  .big-sec {
+    width: calc(100% - 50px)
+    
   }
 }
