@@ -205,6 +205,14 @@ aside{
   border-radius: 50%;
   overflow: hidden;
 }
+.sec-name {
+  margin-bottom: 5px;
+  font-size: 1.1rem;
+}
+
+.album-sub-title {
+  font-size: .8rem;
+}
 
 /* FOOTER------------------ */
 footer {
