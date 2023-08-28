@@ -157,7 +157,7 @@ aside{
 }
 /* /MENU-------------------------- */
 
-/* UPDATE --------------------------*/
+/* UPGRADE --------------------------*/
 .upgrade{
   width: calc(100% - 225px);
   height: 90px;
@@ -167,6 +167,7 @@ aside{
   text-align: end;
   padding: 20px;
   background-color: #000000a4;
+  z-index: 999;
 }
 
 /* BTN */
@@ -277,7 +278,7 @@ footer {
 .player-card {
   align-items: center;
   justify-content: space-between;
-  width: 215px;
+  width: 225px;
 }
 
 .player-album {
@@ -299,7 +300,7 @@ footer {
 .player-advance {
   flex-direction: column;
   align-items: center;
-  width: 80%;
+  width: 90%;
 }
 
 .player-advance i {
@@ -325,12 +326,12 @@ footer {
 }
 
 .advance-barr{
-  width: 60%;
+  width: 80%;
   align-items: center;
 }
 
 .barr {
-  width: 90%;
+  width: 100%;
   height: 3px;
   background-color: #5A5A5A;
   margin: 0 auto;
@@ -372,7 +373,7 @@ footer {
 
 .volume{
   height: 100%;
-  width: 15%;
+  width:230px;
   justify-content: space-between;
   align-items: center;
 }
@@ -388,7 +389,16 @@ footer {
 
 /* QUERY--------------------- */
 @media screen and (max-width:1100px){
+  .card {
+    width: calc(100% / 4);
+    margin-bottom: 20px;
+  }
+}
 
+@media screen and (max-width:800px){
+  .card {
+    width: calc(100% / 2);
+  }
 }
 
 @media screen and (max-width:600px){
