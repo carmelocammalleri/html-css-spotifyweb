@@ -37,6 +37,65 @@
 
 /* /GENERAL */
 
+/* HOVER */
+.create:hover span,
+.create:hover i {
+  color: white;
+}
+
+.aside-foot:hover i,
+.aside-foot:hover .install {
+  color: white;
+}
+
+.menu .options:hover span{
+  color:white;
+}
+
+ul li:hover{
+  color: white;
+  cursor: pointer;
+}
+
+.upgrade .btn:hover {
+  scale: 1.1;
+}
+
+.card .image-card:hover i{
+  display: block;
+}
+
+.image-card:hover img {
+  opacity: .5;
+  cursor: pointer;
+}
+
+.foot .title-album .song-name:hover {
+  text-decoration: underline;
+}
+
+.player-advance .fa-circle-play:hover {
+  scale: 1.2;
+}
+
+.player-icon i:hover{
+  color: white;
+}
+
+.barr:hover .advance{
+  background-color: greenyellow;
+}
+
+.barr:hover .advance-circle {
+  display: block;
+  background-color: greenyellow;
+}
+
+.options:hover .svg path{
+  fill: white;
+}
+/* /HOVER */
+
 /* MAIN */
 main {
   height: calc(100% - 90px)
@@ -93,10 +152,7 @@ aside{
   align-items: center;
 }
 
-.create:hover span,
-.create:hover i {
-  color: white;
-}
+
 
 .install {
   padding: 10px 5px;
@@ -129,10 +185,7 @@ aside{
   border-bottom: 1px solid white;
 }
 
-.aside-foot:hover i,
-.aside-foot:hover .install {
-  color: white;
-}
+
 
 /* /ASIDE --------------------------*/
 
@@ -146,11 +199,7 @@ aside{
   margin: 10px;
 }
 
-.menu .options:hover span{
-  color:white;
-}
-
-.menu .options img{
+.menu .options .svg{
   width: 20px;
   margin-right: 5px;
 }
@@ -173,9 +222,7 @@ aside{
   height: 100%;
 }
 
-.scroll ul li:hover{
-  color: white;
-}
+
 /* /MENU-------------------------- */
 
 /* UPGRADE --------------------------*/
@@ -191,9 +238,7 @@ aside{
   z-index: 999;
 }
 
-.upgrade .btn:hover {
-  scale: 1.1;
-}
+
 
 /* BTN */
 .btn {
@@ -232,14 +277,7 @@ aside{
   display: none;
 }
 
-.card .image-card:hover i{
-  display: block;
-}
 
-.image-card:hover img {
-  opacity: .5;
-  cursor: pointer;
-}
 
 .image-card {
   aspect-ratio: 1;
@@ -296,9 +334,7 @@ footer {
   font-size: .7rem;
 }
 
-.foot .title-album .song-name:hover {
-  text-decoration: underline;
-}
+
 
 .player-card {
   align-items: center;
@@ -333,13 +369,6 @@ footer {
   font-size: 1rem;
   color: white;
 }
-.player-advance .fa-circle-play:hover {
-  scale: 1.2;
-}
-
-.player-icon i:hover{
-  color: white;
-}
 
 .icon-barr {
   align-items: center;
@@ -371,14 +400,7 @@ footer {
   border-radius: 5px;
 }
 
-.barr:hover .advance{
-  background-color: greenyellow;
-}
 
-.barr:hover .advance-circle {
-  display: block;
-  background-color: greenyellow;
-}
 
 .advance-circle{
   border-radius: 50%;
